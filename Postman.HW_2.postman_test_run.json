@@ -1,0 +1,375 @@
+{
+	"id": "9e7c019f-f7dd-42e4-ad85-f6af4ee6f9f9",
+	"name": "Postman.HW_2",
+	"timestamp": "2023-03-20T16:06:35.971Z",
+	"collection_id": "26169805-1ff64164-2474-4c2d-ba66-6ed31aff9b76",
+	"folder_id": 0,
+	"environment_id": "26169805-5402685a-da3e-48a8-800a-50e50dcc376a",
+	"totalPass": 40,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-20T16:06:33.815Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6de5ea8c-5575-49c6-8db4-fe675aa98bae",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/first",
+			"time": 223,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Body is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				223
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Body is correct": true
+				}
+			]
+		},
+		{
+			"id": "bd0518f7-a8da-46b3-bfa6-ce9d7fc836af",
+			"name": "EP_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 215,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Person is John": true,
+				"Age is 25": true,
+				"Salary is 1000": true,
+				"Person name is valid": true,
+				"Person age is valid": true,
+				"Person salary is valid": true,
+				"Server logic works out multiplication": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person is John": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Age is 25": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Salary is 1000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person name is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person age is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person salary is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Server logic works out multiplication": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Person is John": true,
+					"Age is 25": true,
+					"Salary is 1000": true,
+					"Person name is valid": true,
+					"Person age is valid": true,
+					"Person salary is valid": true,
+					"Server logic works out multiplication": true
+				}
+			]
+		},
+		{
+			"id": "8d78d1bd-9842-493e-8f3e-9063930d267f",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/object_info_3?name=John&age=25&salary=1000",
+			"time": 209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Person name is valid": true,
+				"Person age is valid": true,
+				"Person salary is valid": true,
+				"Dog name is valid": true,
+				"Dog age is valid": true,
+				"Dog name is Luky": true,
+				"Dog age is 4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person name is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person age is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person salary is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dog name is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dog age is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dog name is Luky": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dog age is 4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				209
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Person name is valid": true,
+					"Person age is valid": true,
+					"Person salary is valid": true,
+					"Dog name is valid": true,
+					"Dog age is valid": true,
+					"Dog name is Luky": true,
+					"Dog age is 4": true
+				}
+			]
+		},
+		{
+			"id": "e30c9761-5e43-496a-bcd5-c480d88d96d4",
+			"name": "EP_4",
+			"url": "http://162.55.220.72:5005/object_info_4?name=John&age=25&salary=1000",
+			"time": 215,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Person name is valid": true,
+				"Person age is valid": true,
+				"Server response equal request ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person name is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person age is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Server response equal request ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Person name is valid": true,
+					"Person age is valid": true,
+					"Server response equal request ": true
+				}
+			]
+		},
+		{
+			"id": "aa247e2c-0ac9-4d4a-a910-791d49b50210",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 210,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Json response have property start_qa_salary": true,
+				"Json response have property qa_salary_after_6_months": true,
+				"Json response have property qa_salary_after_12_months": true,
+				"Json response have property qa_salary_after_1.5_year": true,
+				"Json response have property qa_salary_after_3.5_years": true,
+				"Json response have property person": true,
+				"Param response start_qa_salary eql salary from request": true,
+				"Param response qa_salary_after_6_months eql salary*2 from request": true,
+				"Param response qa_salary_after_12_months eql salary*2 from request": true,
+				"Param response qa_salary_after_1.5_years eql salary*2 from request": true,
+				"Param response qa_salary_after_3.5_years eql salary*2 from request": true,
+				"1st element in param person from u_name = salary": true,
+				"Param age from u_name = age": true,
+				"Param u_salary_5_years": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Json response have property start_qa_salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Json response have property qa_salary_after_6_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Json response have property qa_salary_after_12_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Json response have property qa_salary_after_1.5_year": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Json response have property qa_salary_after_3.5_years": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Json response have property person": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Param response start_qa_salary eql salary from request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Param response qa_salary_after_6_months eql salary*2 from request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Param response qa_salary_after_12_months eql salary*2 from request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Param response qa_salary_after_1.5_years eql salary*2 from request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Param response qa_salary_after_3.5_years eql salary*2 from request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"1st element in param person from u_name = salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Param age from u_name = age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Param u_salary_5_years": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				210
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Json response have property start_qa_salary": true,
+					"Json response have property qa_salary_after_6_months": true,
+					"Json response have property qa_salary_after_12_months": true,
+					"Json response have property qa_salary_after_1.5_year": true,
+					"Json response have property qa_salary_after_3.5_years": true,
+					"Json response have property person": true,
+					"Param response start_qa_salary eql salary from request": true,
+					"Param response qa_salary_after_6_months eql salary*2 from request": true,
+					"Param response qa_salary_after_12_months eql salary*2 from request": true,
+					"Param response qa_salary_after_1.5_years eql salary*2 from request": true,
+					"Param response qa_salary_after_3.5_years eql salary*2 from request": true,
+					"1st element in param person from u_name = salary": true,
+					"Param age from u_name = age": true,
+					"Param u_salary_5_years": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1072,
+	"collection": {
+		"requests": [
+			{
+				"id": "6de5ea8c-5575-49c6-8db4-fe675aa98bae",
+				"method": "GET"
+			},
+			{
+				"id": "bd0518f7-a8da-46b3-bfa6-ce9d7fc836af",
+				"method": "POST"
+			},
+			{
+				"id": "8d78d1bd-9842-493e-8f3e-9063930d267f",
+				"method": "GET"
+			},
+			{
+				"id": "e30c9761-5e43-496a-bcd5-c480d88d96d4",
+				"method": "GET"
+			},
+			{
+				"id": "aa247e2c-0ac9-4d4a-a910-791d49b50210",
+				"method": "POST"
+			}
+		]
+	}
+}
