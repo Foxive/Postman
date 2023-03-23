@@ -1,0 +1,318 @@
+{
+	"id": "bebc3119-7059-42ab-83b9-0e43ec96e9cb",
+	"name": "Postman.HW_3",
+	"timestamp": "2023-03-23T03:34:07.269Z",
+	"collection_id": "26169805-f40d5886-066b-4f34-88f9-344cf38bdc7e",
+	"folder_id": 0,
+	"environment_id": "26169805-9faa3c32-c472-4a8d-907d-cd6545a29b5c",
+	"totalPass": 17,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-23T03:33:03.346Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c06e63f1-b846-49a9-8683-3493b8516361",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/login",
+			"time": 215,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0f2102ed-bd0c-4191-bff1-7065b5927541",
+			"name": "EP_2",
+			"url": "http://162.55.220.72:5005/user_info",
+			"time": 209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Scheme is correct": true,
+				"Server logic (multiplication factor) works ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Scheme is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Server logic (multiplication factor) works ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				209
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Scheme is correct": true,
+					"Server logic (multiplication factor) works ": true
+				}
+			]
+		},
+		{
+			"id": "8e605793-0dd6-458b-b460-740c82f92c2d",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/new_data",
+			"time": 219,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Scheme is correct": true,
+				"Server logic (multiplication factor) works ": true,
+				"2nd array element > 1 and 0 ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Scheme is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Server logic (multiplication factor) works ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"2nd array element > 1 and 0 ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				219
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Scheme is correct": true,
+					"Server logic (multiplication factor) works ": true,
+					"2nd array element > 1 and 0 ": true
+				}
+			]
+		},
+		{
+			"id": "af2f5bf7-0dff-4d14-a548-4882a3195d08",
+			"name": "EP_4",
+			"url": "http://162.55.220.72:5005/test_pet_info",
+			"time": 214,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Scheme is correct": true,
+				"Server logic (multiplication weight factor) works ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Scheme is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Server logic (multiplication weight factor) works ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				214
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Scheme is correct": true,
+					"Server logic (multiplication weight factor) works ": true
+				}
+			]
+		},
+		{
+			"id": "78b95fbe-fd6a-440c-b2cd-27b99a8bf947",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/get_test_user",
+			"time": 217,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Scheme is correct": true,
+				"Resp name = var name from env ": true,
+				"Resp age = var age from env ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Scheme is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Resp name = var name from env ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Resp age = var age from env ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				217
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Scheme is correct": true,
+					"Resp name = var name from env ": true,
+					"Resp age = var age from env ": true
+				}
+			]
+		},
+		{
+			"id": "4eb90982-440f-42a2-a34e-7ba28aa3f3c4",
+			"name": "EP_6",
+			"url": "http://54.157.99.22:80/currency",
+			"time": 350,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				350
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8b549d0f-46a8-46a6-a5c5-e6da6c30b916",
+			"name": "EP_7",
+			"url": "http://54.157.99.22:80/curr_byn",
+			"time": 177,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response json scheme is ok": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response json scheme is ok": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				177
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response json scheme is ok": true
+				}
+			]
+		},
+		{
+			"id": "29e9734b-2d3b-4f5c-9706-c2026e740323",
+			"name": "EP_7(js)",
+			"url": "http://54.157.99.22:80/currency",
+			"time": 353,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				353
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1954,
+	"collection": {
+		"requests": [
+			{
+				"id": "c06e63f1-b846-49a9-8683-3493b8516361",
+				"method": "POST"
+			},
+			{
+				"id": "0f2102ed-bd0c-4191-bff1-7065b5927541",
+				"method": "POST"
+			},
+			{
+				"id": "8e605793-0dd6-458b-b460-740c82f92c2d",
+				"method": "POST"
+			},
+			{
+				"id": "af2f5bf7-0dff-4d14-a548-4882a3195d08",
+				"method": "POST"
+			},
+			{
+				"id": "78b95fbe-fd6a-440c-b2cd-27b99a8bf947",
+				"method": "POST"
+			},
+			{
+				"id": "4eb90982-440f-42a2-a34e-7ba28aa3f3c4",
+				"method": "POST"
+			},
+			{
+				"id": "8b549d0f-46a8-46a6-a5c5-e6da6c30b916",
+				"method": "POST"
+			},
+			{
+				"id": "29e9734b-2d3b-4f5c-9706-c2026e740323",
+				"method": "POST"
+			}
+		]
+	}
+}
