@@ -1026,7 +1026,7 @@ for (var index = 0; index < data1; index++){
 [hw1col_link]: <https://github.com/Foxive/Postman/tree/main/Postman.HW_1.postman_collection.json>
 [hw2test_link]: <https://github.com/Foxive/Postman/tree/main/Postman.HW_2.postman_test_run.json>
 [hw2col_link]: <https://github.com/Foxive/Postman/tree/main/Postman.HW_2.postman_collection.json>
-[hw2env_link]: <https://github.com/Foxive/Postman/tre/main/HW_2.postman_environment.json>
+[hw2env_link]: <https://github.com/Foxive/Postman/tree/main/HW_2.postman_environment.json>
 [hw3col_link]: <https://github.com/Foxive/Postman/tree/main/Postman.HW_3.postman_collection.json>
 [hw3test_link]: <https://github.com/Foxive/Postman/tree/main/Postman.HW_3.postman_test_run.json>
-[hw3env_link]: <https://github.com/Foxive/Postman/tre/main/HW_3.postman_environment.json>
+[hw3env_link]: <https://github.com/Foxive/Postman/tree/main/HW_3.postman_environment.json>
