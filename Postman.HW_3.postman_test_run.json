@@ -1,7 +1,7 @@
 {
-	"id": "bebc3119-7059-42ab-83b9-0e43ec96e9cb",
+	"id": "02f483b8-296d-4834-ba45-e5c9a67642c9",
 	"name": "Postman.HW_3",
-	"timestamp": "2023-03-23T03:34:07.269Z",
+	"timestamp": "2023-03-23T10:17:38.671Z",
 	"collection_id": "26169805-f40d5886-066b-4f34-88f9-344cf38bdc7e",
 	"folder_id": 0,
 	"environment_id": "26169805-9faa3c32-c472-4a8d-907d-cd6545a29b5c",
@@ -9,14 +9,14 @@
 	"delay": 0,
 	"persist": true,
 	"status": "finished",
-	"startedAt": "2023-03-23T03:33:03.346Z",
+	"startedAt": "2023-03-23T10:16:33.639Z",
 	"totalFail": 0,
 	"results": [
 		{
 			"id": "c06e63f1-b846-49a9-8683-3493b8516361",
 			"name": "EP_1",
-			"url": "http://162.55.220.72:5005/login",
-			"time": 215,
+			"url": "{{url}}/login",
+			"time": 212,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -31,7 +31,7 @@
 				}
 			},
 			"times": [
-				215
+				212
 			],
 			"allTests": [
 				{
@@ -42,8 +42,8 @@
 		{
 			"id": "0f2102ed-bd0c-4191-bff1-7065b5927541",
 			"name": "EP_2",
-			"url": "http://162.55.220.72:5005/user_info",
-			"time": 209,
+			"url": "{{url}}/user_info",
+			"time": 210,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -68,7 +68,7 @@
 				}
 			},
 			"times": [
-				209
+				210
 			],
 			"allTests": [
 				{
@@ -81,8 +81,8 @@
 		{
 			"id": "8e605793-0dd6-458b-b460-740c82f92c2d",
 			"name": "EP_3",
-			"url": "http://162.55.220.72:5005/new_data",
-			"time": 219,
+			"url": "{{url}}/new_data",
+			"time": 1231,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -112,7 +112,7 @@
 				}
 			},
 			"times": [
-				219
+				1231
 			],
 			"allTests": [
 				{
@@ -126,8 +126,8 @@
 		{
 			"id": "af2f5bf7-0dff-4d14-a548-4882a3195d08",
 			"name": "EP_4",
-			"url": "http://162.55.220.72:5005/test_pet_info",
-			"time": 214,
+			"url": "{{url}}/test_pet_info",
+			"time": 224,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -152,7 +152,7 @@
 				}
 			},
 			"times": [
-				214
+				224
 			],
 			"allTests": [
 				{
@@ -165,8 +165,8 @@
 		{
 			"id": "78b95fbe-fd6a-440c-b2cd-27b99a8bf947",
 			"name": "EP_5",
-			"url": "http://162.55.220.72:5005/get_test_user",
-			"time": 217,
+			"url": "{{url}}/get_test_user",
+			"time": 214,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -196,7 +196,7 @@
 				}
 			},
 			"times": [
-				217
+				214
 			],
 			"allTests": [
 				{
@@ -210,8 +210,8 @@
 		{
 			"id": "4eb90982-440f-42a2-a34e-7ba28aa3f3c4",
 			"name": "EP_6",
-			"url": "http://54.157.99.22:80/currency",
-			"time": 350,
+			"url": "{{url_alt}}/currency",
+			"time": 357,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -219,7 +219,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				350
+				357
 			],
 			"allTests": [
 				{}
@@ -228,8 +228,8 @@
 		{
 			"id": "8b549d0f-46a8-46a6-a5c5-e6da6c30b916",
 			"name": "EP_7",
-			"url": "http://54.157.99.22:80/curr_byn",
-			"time": 177,
+			"url": "{{url_alt}}/curr_byn",
+			"time": 180,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -249,7 +249,7 @@
 				}
 			},
 			"times": [
-				177
+				180
 			],
 			"allTests": [
 				{
@@ -261,8 +261,8 @@
 		{
 			"id": "29e9734b-2d3b-4f5c-9706-c2026e740323",
 			"name": "EP_7(js)",
-			"url": "http://54.157.99.22:80/currency",
-			"time": 353,
+			"url": "{{url_alt}}/currency",
+			"time": 357,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -270,7 +270,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				353
+				357
 			],
 			"allTests": [
 				{}
@@ -278,7 +278,7 @@
 		}
 	],
 	"count": 1,
-	"totalTime": 1954,
+	"totalTime": 2985,
 	"collection": {
 		"requests": [
 			{

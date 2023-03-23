@@ -38,15 +38,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/first",
-					"protocol": "http",
+					"raw": "{{url}}/first",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{url}}"
 					],
-					"port": "5005",
 					"path": [
 						"first"
 					]
@@ -132,15 +127,10 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_3",
-					"protocol": "http",
+					"raw": "{{url}}/user_info_3",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{url}}"
 					],
-					"port": "5005",
 					"path": [
 						"user_info_3"
 					],
@@ -218,15 +208,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_3?name=John&age=25&salary=1000",
-					"protocol": "http",
+					"raw": "{{url}}/object_info_3?name=John&age=25&salary=1000",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{url}}"
 					],
-					"port": "5005",
 					"path": [
 						"object_info_3"
 					],
@@ -331,15 +316,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_4?name=John&age=25&salary=1000",
-					"protocol": "http",
+					"raw": "{{url}}/object_info_4?name=John&age=25&salary=1000",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{url}}"
 					],
-					"port": "5005",
 					"path": [
 						"object_info_4"
 					],
@@ -480,15 +460,10 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_2",
-					"protocol": "http",
+					"raw": "{{url}}/user_info_2",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{url}}"
 					],
-					"port": "5005",
 					"path": [
 						"user_info_2"
 					]

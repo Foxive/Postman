@@ -36,7 +36,7 @@
 *Main task: Создать запросы в Postman.*
 ```javascript
 Protocol: http
-IP: 162.55.220.72
+IP: **
 Port: 5005
 ```
 
@@ -183,7 +183,7 @@ response:
 <summary>Task 1 (EP_1)</summary>
 
 ```javascript
-http://162.55.220.72:5005/first
+{{url}}/first
 1. Отправить запрос.
 2. Статус код 200
 3. Проверить, что в body приходит правильный string.
@@ -194,7 +194,7 @@ http://162.55.220.72:5005/first
 <summary>Task 2 (EP_2)</summary>
 
 ```javascript
-http://162.55.220.72:5005/user_info_3
+{{url}}/user_info_3
 1. Отправить запрос.
 2. Статус код 200
 3. Спарсить response body в json.
@@ -214,7 +214,7 @@ http://162.55.220.72:5005/user_info_3
 <summary>Task 3 (EP_3)</summary>
 
 ```javascript
-http://162.55.220.72:5005/object_info_3
+{{url}}/object_info_3
 1. Отправить запрос.
 2. Статус код 200
 3. Спарсить response body в json.
@@ -234,7 +234,7 @@ http://162.55.220.72:5005/object_info_3
 <summary>Task 4 (EP_4)</summary>
 
 ```javascript
-http://162.55.220.72:5005/object_info_4
+{{url}}/object_info_4
 1. Отправить запрос.
 2. Статус код 200
 3. Спарсить response body в json.
@@ -263,7 +263,7 @@ http://162.55.220.72:5005/object_info_4
 <summary>Task 5 (EP_5)</summary>
 
 ```javascript
-http://162.55.220.72:5005/user_info_2
+{{url}}/user_info_2
 1. Вставить параметр salary из окружения в request
 2. Вставить параметр age из окружения в age
 3. Вставить параметр name из окружения в name
@@ -563,7 +563,7 @@ for (i in responseJson.person) {
 
 ```javascript
 POST
-http://162.55.220.72:5005/login
+{{url}}/login
 login : str (кроме /)
 password : str
 Приходящий токен необходимо передать во все остальные запросы.
@@ -574,7 +574,7 @@ password : str
 <summary>Task 2 (EP_2)</summary>
 
 ```javascript
-http://162.55.220.72:5005/user_info
+{{url}}/user_info
     req. (RAW JSON)
     POST
     age: int
@@ -593,7 +593,7 @@ http://162.55.220.72:5005/user_info
 1) Статус код 200
 2) Проверка структуры json в ответе.
 3) В ответе указаны коэффициенты умножения salary, напишите тесты по проверке правильности результата перемножения на коэффициент.
-4) Достать значение из поля 'u_salary_1.5_year' и передать в поле salary запроса http://162.55.220.72:5005/get_test_user
+4) Достать значение из поля 'u_salary_1.5_year' и передать в поле salary запроса {{url}}/get_test_user
 
 ```
 </details>
@@ -601,7 +601,7 @@ http://162.55.220.72:5005/user_info
 <summary>Task 3 (EP_3)</summary>
 
 ```javascript
-http://162.55.220.72:5005/new_data
+{{url}}/new_data
     req.
     POST
     age: int
@@ -624,7 +624,7 @@ http://162.55.220.72:5005/new_data
 <summary>Task 4 (EP_4)</summary>
 
 ```javascript
- http://162.55.220.72:5005/test_pet_info    
+ {{url}}/test_pet_info    
     req.
     POST
     age: int
@@ -646,7 +646,7 @@ http://162.55.220.72:5005/new_data
 <summary>Task 5 (EP_5)</summary>
 
 ```javascript
-http://162.55.220.72:5005/get_test_user
+{{url}}/get_test_user
     req.
     POST
     age: int
@@ -673,7 +673,7 @@ http://162.55.220.72:5005/get_test_user
 <summary>Task 6 (EP_6)</summary>
 
 ```javascript
-http://54.157.99.22:80/currency
+{{url_alt}}/currency
     req.
     POST
     auth_token
@@ -698,7 +698,7 @@ http://54.157.99.22:80/currency
 <summary>Task 7 (EP_7)</summary>
 
 ```javascript
-http://54.157.99.22:80/curr_byn
+{{url_alt}}/curr_byn
     req.
     POST
     auth_token
@@ -807,7 +807,7 @@ pm.test("Server logic (multiplication factor) works ", function () {
         pm.expect(respJson.qa_salary_after_12_months).to.eql(request_raw.salary*2.9),
         pm.expect(respJson.qa_salary_after_6_months).to.eql(request_raw.salary*2)
 });
-// 4) Достать значение из поля 'u_salary_1.5_year' и передать в поле salary запроса http://162.55.220.72:5005/get_test_user
+// 4) Достать значение из поля 'u_salary_1.5_year' и передать в поле salary запроса {{url}}/get_test_user
 pm.environment.set("salary_get_test_user", respJson.person.u_salary_1_5_year);
 ```
 </details>
@@ -994,10 +994,9 @@ let data1 = info.length
 for (var index = 0; index < data1; index++){
     var new_id = info[index].Cur_ID
     var connection = {
-    url: 'http://54.157.99.22:80/curr_byn',
+    url: pm.environment.get("url_alt")+'/curr_byn',
     method: 'POST',
     header: {'Postman-Token': '23a390b7-9bb2-4ddb-8715-b9d3240a49bd', 
-            'Host':'54.157.99.22:80', 
             'Content-Type':'multipart/form-data boundary=--------------------------924870078785244570813508', 
             'Content-Length':'278'}, 
     body: {

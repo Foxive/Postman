@@ -1,22 +1,22 @@
 {
-	"id": "9e7c019f-f7dd-42e4-ad85-f6af4ee6f9f9",
+	"id": "ab19f92a-0ff0-4386-88c4-2ee9868a40d4",
 	"name": "Postman.HW_2",
-	"timestamp": "2023-03-20T16:06:35.971Z",
+	"timestamp": "2023-03-23T10:18:10.625Z",
 	"collection_id": "26169805-1ff64164-2474-4c2d-ba66-6ed31aff9b76",
 	"folder_id": 0,
-	"environment_id": "26169805-5402685a-da3e-48a8-800a-50e50dcc376a",
+	"environment_id": "26169805-9faa3c32-c472-4a8d-907d-cd6545a29b5c",
 	"totalPass": 40,
 	"delay": 0,
 	"persist": true,
 	"status": "finished",
-	"startedAt": "2023-03-20T16:06:33.815Z",
+	"startedAt": "2023-03-23T10:18:08.269Z",
 	"totalFail": 0,
 	"results": [
 		{
 			"id": "6de5ea8c-5575-49c6-8db4-fe675aa98bae",
 			"name": "EP_1",
-			"url": "http://162.55.220.72:5005/first",
-			"time": 223,
+			"url": "{{url}}/first",
+			"time": 212,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -41,7 +41,7 @@
 				}
 			},
 			"times": [
-				223
+				212
 			],
 			"allTests": [
 				{
@@ -54,8 +54,8 @@
 		{
 			"id": "bd0518f7-a8da-46b3-bfa6-ce9d7fc836af",
 			"name": "EP_2",
-			"url": "http://162.55.220.72:5005/user_info_3",
-			"time": 215,
+			"url": "{{url}}/user_info_3",
+			"time": 207,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -105,7 +105,7 @@
 				}
 			},
 			"times": [
-				215
+				207
 			],
 			"allTests": [
 				{
@@ -123,8 +123,8 @@
 		{
 			"id": "8d78d1bd-9842-493e-8f3e-9063930d267f",
 			"name": "EP_3",
-			"url": "http://162.55.220.72:5005/object_info_3?name=John&age=25&salary=1000",
-			"time": 209,
+			"url": "{{url}}/object_info_3?name=John&age=25&salary=1000",
+			"time": 208,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -174,7 +174,7 @@
 				}
 			},
 			"times": [
-				209
+				208
 			],
 			"allTests": [
 				{
@@ -192,8 +192,8 @@
 		{
 			"id": "e30c9761-5e43-496a-bcd5-c480d88d96d4",
 			"name": "EP_4",
-			"url": "http://162.55.220.72:5005/object_info_4?name=John&age=25&salary=1000",
-			"time": 215,
+			"url": "{{url}}/object_info_4?name=John&age=25&salary=1000",
+			"time": 209,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -223,7 +223,7 @@
 				}
 			},
 			"times": [
-				215
+				209
 			],
 			"allTests": [
 				{
@@ -237,8 +237,8 @@
 		{
 			"id": "aa247e2c-0ac9-4d4a-a910-791d49b50210",
 			"name": "EP_5",
-			"url": "http://162.55.220.72:5005/user_info_2",
-			"time": 210,
+			"url": "{{url}}/user_info_2",
+			"time": 229,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -323,7 +323,7 @@
 				}
 			},
 			"times": [
-				210
+				229
 			],
 			"allTests": [
 				{
@@ -347,7 +347,7 @@
 		}
 	],
 	"count": 1,
-	"totalTime": 1072,
+	"totalTime": 1065,
 	"collection": {
 		"requests": [
 			{

@@ -48,15 +48,10 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/login",
-					"protocol": "http",
+					"raw": "{{url}}/login",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{url}}"
 					],
-					"port": "5005",
 					"path": [
 						"login"
 					]
@@ -127,7 +122,7 @@
 							"        pm.expect(respJson.qa_salary_after_6_months).to.eql(request_raw.salary*2)",
 							"});",
 							"",
-							"// 4) Достать значение из поля 'u_salary_1.5_year' и передать в поле salary запроса http://162.55.220.72:5005/get_test_user",
+							"// 4) Достать значение из поля 'u_salary_1.5_year' и передать в поле salary запроса ***/get_test_user",
 							"pm.environment.set(\"salary_get_test_user\", respJson.person.u_salary_1_5_year);",
 							""
 						],
@@ -148,15 +143,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info",
-					"protocol": "http",
+					"raw": "{{url}}/user_info",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{url}}"
 					],
-					"port": "5005",
 					"path": [
 						"user_info"
 					]
@@ -245,15 +235,10 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/new_data",
-					"protocol": "http",
+					"raw": "{{url}}/new_data",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{url}}"
 					],
-					"port": "5005",
 					"path": [
 						"new_data"
 					]
@@ -336,15 +321,10 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/test_pet_info",
-					"protocol": "http",
+					"raw": "{{url}}/test_pet_info",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{url}}"
 					],
-					"port": "5005",
 					"path": [
 						"test_pet_info"
 					]
@@ -433,15 +413,10 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/get_test_user",
-					"protocol": "http",
+					"raw": "{{url}}/get_test_user",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{url}}"
 					],
-					"port": "5005",
 					"path": [
 						"get_test_user"
 					]
@@ -495,15 +470,10 @@
 					]
 				},
 				"url": {
-					"raw": "http://54.157.99.22:80/currency",
-					"protocol": "http",
+					"raw": "{{url_alt}}/currency",
 					"host": [
-						"54",
-						"157",
-						"99",
-						"22"
+						"{{url_alt}}"
 					],
-					"port": "80",
 					"path": [
 						"currency"
 					]
@@ -565,15 +535,10 @@
 					]
 				},
 				"url": {
-					"raw": "http://54.157.99.22:80/curr_byn",
-					"protocol": "http",
+					"raw": "{{url_alt}}/curr_byn",
 					"host": [
-						"54",
-						"157",
-						"99",
-						"22"
+						"{{url_alt}}"
 					],
-					"port": "80",
 					"path": [
 						"curr_byn"
 					]
@@ -610,7 +575,7 @@
 							"for (var index = 0; index < data1; index++){",
 							"    var new_id = info[index].Cur_ID",
 							"    var connection = {",
-							"    url: 'http://54.157.99.22:80/curr_byn',",
+							"    url: pm.environment.get(\"url_alt\")+'/curr_byn',",
 							"    method: 'POST',",
 							"    header: {'Postman-Token': '23a390b7-9bb2-4ddb-8715-b9d3240a49bd', ",
 							"            'Host':'54.157.99.22:80', ",
@@ -661,15 +626,10 @@
 					]
 				},
 				"url": {
-					"raw": "http://54.157.99.22:80/currency",
-					"protocol": "http",
+					"raw": "{{url_alt}}/currency",
 					"host": [
-						"54",
-						"157",
-						"99",
-						"22"
+						"{{url_alt}}"
 					],
-					"port": "80",
 					"path": [
 						"currency"
 					]
