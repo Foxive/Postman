@@ -163,7 +163,10 @@ response:
                      'u_salary_5_years': salary * 4.2}
           }
 ```
-
+<details>
+<summary>Screen_RunClc</summary>
+[![D|](https://github.com/Foxive/Postman/tree/main/Postman.HW_1_RunClc.png?raw=true)]
+</details>
 </details>
 
 ---
@@ -176,6 +179,11 @@ response:
 * Отправить запрос
 * Проверить статус код (== 200)
 * Проверить доп. параметры с помощью тестов
+
+<details>
+<summary>Screen_RunClc</summary>
+[![D|](https://github.com/Foxive/Postman/tree/main/Postman.HW_2_RunClc.png?raw=true)]
+</details>
 
 <details>
 <summary>Tasks</summary>
@@ -555,6 +563,13 @@ for (i in responseJson.person) {
 *  Получить токен
 *  Проверить доп. параметры с помощью тестов
 
+
+<details>
+<summary>Screen_RunClc</summary>
+
+[![D|](https://github.com/Foxive/Postman/tree/main/Postman.HW_3_RunClc.png?raw=true)]
+
+</details>
 
 <details>
 <summary>Tasks</summary>
