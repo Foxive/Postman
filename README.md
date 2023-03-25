@@ -165,7 +165,7 @@ response:
 ```
 <details>
 <summary>Screen_RunClc</summary>
-[![D|](https://github.com/Foxive/Postman/tree/main/Postman.HW_1_RunClc.png?raw=true)]
+[![D|](https://github.com/Foxive/Postman/blob/main/Postman.HW_1_RunClc.png?raw=true)]
 </details>
 </details>
 
@@ -182,7 +182,7 @@ response:
 
 <details>
 <summary>Screen_RunClc</summary>
-[![D|](https://github.com/Foxive/Postman/tree/main/Postman.HW_2_RunClc.png?raw=true)]
+[![D|](https://github.com/Foxive/Postman/blob/main/Postman.HW_2_RunClc.png?raw=true)]
 </details>
 
 <details>
@@ -567,7 +567,7 @@ for (i in responseJson.person) {
 <details>
 <summary>Screen_RunClc</summary>
 
-[![D|](https://github.com/Foxive/Postman/tree/main/Postman.HW_3_RunClc.png?raw=true)]
+[![D|](https://github.com/Foxive/Postman/blob/main/Postman.HW_3_RunClc.png?raw=true)]
 
 </details>
 
