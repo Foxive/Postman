@@ -165,7 +165,9 @@ response:
 ```
 <details>
 <summary>Screen_RunClc</summary>
+    
 <img src ="https://github.com/Foxive/Postman/blob/main/Postman.HW_1_RunClc.png?raw=true">
+    
 </details>
 </details>
 
