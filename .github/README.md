@@ -172,7 +172,7 @@ response:
 <details>
 <summary>Screen_RunClc</summary>
 
-<img src ="https://github.com/Foxive/Postman/blob/main/Postman.HW_1_RunClc.png?raw=true">
+<img title="" src="file:///Homework_1/Postman.HW_1_RunClc.png?raw=true" alt="">
 
 </details>
 </details>
@@ -193,7 +193,7 @@ response:
 <details>
 <summary>Screen_RunClc</summary>
 
-<img src ="https://github.com/Foxive/Postman/blob/main/Postman.HW_2_RunClc.png?raw=true">
+<img title="" src="file:///Homework_2/Postman.HW_2_RunClc.png?raw=true" alt="">
 
 </details>
 
@@ -581,7 +581,7 @@ for (i in responseJson.person) {
 <details>
 <summary>Screen_RunClc</summary>
 
-<img src ="https://github.com/Foxive/Postman/blob/main/Postman.HW_3_RunClc.png?raw=true">
+<img title="" src="file:///Homework_3/Postman.HW_3_RunClc.png?raw=true" alt="">
 
 </details>
 
