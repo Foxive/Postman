@@ -1053,11 +1053,11 @@ for (var index = 0; index < data1; index++){
 
 [//]: # (Reference links)
 
-[hw1test_link]: <./Homework_1/Postman.HW_1.postman_test_run.json>
-[hw1col_link]: <./Homework_1/Postman.HW_1.postman_collection.json>
-[hw2test_link]: <./Homework_2/Postman.HW_2.postman_test_run.json>
-[hw2col_link]: <./Homework_2/Postman.HW_2.postman_collection.json>
-[hw2env_link]: <./Homework_2/HW_2.postman_environment.json>
-[hw3col_link]: <./Homework_3/Postman.HW_3.postman_collection.json>
-[hw3test_link]: <./Homework_3/Postman.HW_3.postman_test_run.json>
-[hw3env_link]: <./Homework_3/HW_3.postman_environment.json>
+[hw1test_link]: </Homework_1/Postman.HW_1.postman_test_run.json>
+[hw1col_link]: </Homework_1/Postman.HW_1.postman_collection.json>
+[hw2test_link]: </Homework_2/Postman.HW_2.postman_test_run.json>
+[hw2col_link]: </Homework_2/Postman.HW_2.postman_collection.json>
+[hw2env_link]: </Homework_2/HW_2.postman_environment.json>
+[hw3col_link]: </Homework_3/Postman.HW_3.postman_collection.json>
+[hw3test_link]: </Homework_3/Postman.HW_3.postman_test_run.json>
+[hw3env_link]: </Homework_3/HW_3.postman_environment.json>
