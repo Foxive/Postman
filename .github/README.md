@@ -172,7 +172,7 @@ response:
 <details>
 <summary>Screen_RunClc</summary>
 
-<img title="" src="file:///Homework_1/Postman.HW_1_RunClc.png?raw=true" alt="">
+<img title="" src="file://Homework_1/Postman.HW_1_RunClc.png?raw=true" alt="">
 
 </details>
 </details>
